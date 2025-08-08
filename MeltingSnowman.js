@@ -110,7 +110,7 @@ function checkWinOrLose() {
     const messageContainer = document.querySelector('.message');
     messageContainer.innerText = `You lose! The word was"${wordToGuess}".`;
     const meltingSnowmanContainer = document.querySelector('.MeltingSnowman');
-    meltingSnowmanContainer.innerHTML = `<img src="gameover.png" alt="gameover">`;
+    meltingSnowmanContainer.innerHTML = `<img src="Gameover.png" alt="gameover">`;
     const letterButtons = document.querySelectorAll('.letters button');
     letterButtons.forEach(button => {
       button.disabled = true;
