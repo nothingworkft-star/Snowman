@@ -1,13 +1,13 @@
 // Define the list of words to choose from
 const words = [
-  'JAVASCRIPT',
-  'HTML',
-  'CSS',
-  'NODE',
-  'REACT',
-  'ANGULAR',
-  'JQUERY',
-  'VUE'
+  'ZILONG',
+  'LAYLA',
+  'BARAT',
+  'YUZHONG',
+  'MIYA',
+  'ANGELA',
+  'ALUCARD',
+  'YVE'
 ];
 
 // Define the maximum number of incorrect guesses allowed
