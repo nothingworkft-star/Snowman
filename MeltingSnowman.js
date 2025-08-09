@@ -75,18 +75,6 @@ function handleGuess(letter) {
       guessedLetters[index] = letter;
     }
   });
-// Example: Resetting game variables
-function resetGame() {
-    // Reset scores, player positions, game board, etc.
-    score = 0;
-    playerX = 0;
-    // ... other game state resets
-    startGame(); // Call a function to re-initialize the game
-}
-
-document.getElementById('restartButton').addEventListener('click', function() {
-    resetGame();
-});
   // If the letter is not in the hidden word, increment the wrong guesses count and update the Melting Snowman graphic
   if (!wordToGuess.includes(letter)) {
     wrongGuesses++;
